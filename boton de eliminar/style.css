@@ -1,0 +1,83 @@
+  /* Estilos para la lista de recordatorios */
+  #listaRecordatorios {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilos para cada elemento de la lista */
+  #listaRecordatorios li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el elemento seleccionado */
+  #listaRecordatorios li.seleccionado {
+    background-color: #d3d3d3;
+  }
+
+  h2 {color: red;}
+
+  #botonEliminar {background-color: red;}
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  li:hover {
+    background-color: #f2f2f2;
+  }
